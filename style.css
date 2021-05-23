@@ -18,4 +18,18 @@
 }
 .main-title {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 4rem;
+  transform: translate(-50%, -50%);
+}
+.nav {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  padding: 3rem 10rem;
+  justify-content: space-between;
+}
+.content {
+  width: 100%;
 }
