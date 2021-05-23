@@ -18,10 +18,10 @@
 }
 .main-title {
   position: absolute;
-  top: 40%;
+  top: 42%;
   left: 50%;
   font-size: 4rem;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -42%);
 }
 .nav {
   width: 100%;
