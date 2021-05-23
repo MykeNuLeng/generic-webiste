@@ -32,4 +32,22 @@
 }
 .content {
   width: 100%;
+  background: rgb(32, 32, 32);
+  min-height: 100vh;
+  z-index: 2;
+}
+.content-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.images {
+  height: 60vh;
+  width: auto;
+}
+
+.text {
+  padding: 2rem 10rem;
+  text-align: center;
 }
