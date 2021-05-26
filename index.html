@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script type="text/javascript" async=1>
+    ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[]; p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments) };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1; n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","/tracker.js","snowplow"));
+    window.snowplow('newTracker', 'sp1', 'localhost:9090', { 
+      appId: 'my-app-id'
+    })
+    window.snowplow('trackPageView');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowplow Test</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Oswald:700|Poppins"
       rel="stylesheet"
@@ -19,14 +26,14 @@
         </nav>
         <div class="container">
             <h2 class="main-title">The Parallax Effect</h2>
-            <img src="./pictures/bg.png" class="bg" alt="" />
-            <img src="./pictures/jump.png" class="jump" alt="" />
-            <img src="./pictures/slope.png" class="slope" alt="" />
+            <img src="bg.png" class="bg" alt="" />
+            <img src="jump.png" class="jump" alt="" />
+            <img src="slope.png" class="slope" alt="" />
           </div>
           <div class="content">
             <div class="content-images">
-                <img src="./pictures/snowboard.png" class="images" alt="" />
-                <img src="./pictures/ski-slope.png" class="images" alt="" />
+                <img src="snowboard.png" class="images" alt="" />
+                <img src="ski-slope.png" class="images" alt="" />
             </div>
             <p class="text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui asperiores quisquam libero, distinctio unde maxime nostrum minus, tempora earum rem quis recusandae ullam. Molestiae unde porro vero reiciendis quisquam officia quia pariatur blanditiis saepe. Sequi sit nesciunt, unde fuga quod atque, earum, quisquam incidunt laboriosam illum porro officia eum quasi ipsam accusamus dolore? Odit atque, maiores debitis quibusdam voluptates, veniam fuga officiis labore unde esse dolore velit quasi explicabo at molestias eveniet voluptas maxime molestiae neque iusto ratione! Ipsam accusantium vitae, recusandae animi rerum veniam officiis soluta eum molestias cum.
