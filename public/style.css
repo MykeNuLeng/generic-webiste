@@ -33,11 +33,11 @@
 }
 .content {
   width: 100%;
-  background: rgb(32, 32, 32);
+  background: rgb(255, 255, 255);
   min-height: 110vh;
   z-index: 2;
   position: absolute;
-  box-shadow: 0 0 1rem 1rem rgb(32, 32, 32);
+  box-shadow: 0 0 2rem 2rem rgb(255, 255, 255);
 }
 .content-images {
   display: flex;
