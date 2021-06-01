@@ -45,3 +45,25 @@ Now that the 2 pages were being tracked, I wanted a way to display the results o
 So to start with, I wanted to make a function that searched through the json data, checked each events name_tracker, and added it to the result if it corresponded to what I was looking for.
 
 As I'm a lot more comfortable coding in Python, I thought it would be a great idea to go ahead and do this, in Python. This was a terrible idea, as I didn't consider how I was going to integrate this function into my node server. Either way, the mistake made me laugh, so I've left the [file](https://github.com/MykeNuLeng/generic-webiste/blob/main/public/json_fetch.py) in the repo.
+
+After that I rewrote it in JS, and when run on node in my terminal, the functions were returning correctly, so time to move on.
+
+At this point I wanted to use the functions that I wrote directly in my HTML, so I tried using [EJS](https://ejs.co/), this was a bit fiddly to adjust the file structure, and the node server, but nothing too bad.
+
+However, when doing this I kept getting CORS errors, so EJS was scrapped.
+
+The next idea was to load the api data into a route on the node [server](https://github.com/MykeNuLeng/generic-webiste/blob/main/app.js), and then access the data from there. This seemed to work when going to localhost:8888/api so I stuck with that.
+
+From there I wrote an IIFE in the script [file](https://github.com/MykeNuLeng/generic-webiste/blob/main/public/script.js)(that was currently only being used to hold the animation for the webiste) to access the data from localhost:8888/api and add it to the innerHTML of an element on the homepage.
+
+## Conclusion
+
+### New Technologies
+
+-WSL
+-Docker
+-Snowplow-micro
+-Snowplow JS tracker
+-Timeline
+-ScrollMagic
+-Photoshop
