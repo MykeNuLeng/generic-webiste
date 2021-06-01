@@ -60,10 +60,24 @@ From there I wrote an IIFE in the script [file](https://github.com/MykeNuLeng/ge
 
 ### New Technologies
 
--WSL
--Docker
--Snowplow-micro
--Snowplow JS tracker
--Timeline
--ScrollMagic
--Photoshop
+- WSL
+- Docker
+- Snowplow-micro
+- Snowplow JS tracker
+- Timeline
+- ScrollMagic
+- Photoshop
+
+### Lessons
+
+In reflection I would say that I didn't spend enough time planning. With better foresight I would have:
+
+- Familiarised myself with snowplow-micro before starting on the project, as I think the project would have fallen into place a lot quicker afterwards.
+- I could have avoided writing a file in Python, and wasting time trying to come up with ways to integrate it.
+- With a better view of the layout of the project, I could have managed my time a lot better as well.
+
+## Summary
+
+- I'm pretty happy with how it turned out
+- Buttons rather than links would have been so nice
+- The parallax effect is really striking
