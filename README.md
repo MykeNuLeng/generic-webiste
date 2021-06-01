@@ -2,6 +2,15 @@
 
 This is a simple website that asks the question "Skiing or snowboarding?", and uses snowplow-micro to store the results.
 
+## Setup
+
+- Clone this repo into your chosen directory.
+- Download [snowplow/snowplow-micro](https://hub.docker.com/r/snowplow/snowplow-micro) from Docker-Hub.
+- Run `$ docker run --mount type=bind,source=$(pwd)/example,destination=/config -p 9090:9090 snowplow/snowplow-micro:1.1.2 --collector-config /config/micro.conf --iglu /config/iglu.json` in the repo.
+- Same for `npm install`.
+- Start the node server with `node app.js`
+- Go to http://localhost:8888/
+
 ## Method
 
 ### Styling
@@ -76,7 +85,7 @@ In reflection I would say that I didn't spend enough time planning. With better 
 - I could have avoided writing a file in Python, and wasting time trying to come up with ways to integrate it.
 - I could have managed my time a lot better as well.
 
-## Summary
+### Summary
 
 - I'm pretty happy with how it turned out
 - Buttons rather than links would have been so nice
