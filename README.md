@@ -73,6 +73,7 @@ From there I wrote an IIFE in the script [file](https://github.com/MykeNuLeng/ge
 - Docker
 - Snowplow-micro
 - Snowplow JS tracker
+- EJS
 - Timeline
 - ScrollMagic
 - Adobe Photoshop
