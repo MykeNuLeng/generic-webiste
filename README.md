@@ -15,7 +15,7 @@ To start off, I chose a background image that:
 - Was skiing themed, because, Snowplow.
 - Had a large depth of field, so the parallax effect was more obvious.
 
-Once I found the image(from [unsplash](https://unsplash.com/photos/2Gs29PjkAA4)), I prepared it in Adobe Photoshop by separating out the layers into the three different images. Then using JS's [Timeline](https://greensock.com/docs/v2/TimelineMax) library, I animated the images so that the images in the foreground moved up the screen, and the background slightly down. This gave the illusion of the camera panning down. Then using JS's [ScrollMagic](https://scrollmagic.io/) library, I made the animation rely on scrolling rather than time.
+Once I found the image(from [unsplash](https://unsplash.com/photos/2Gs29PjkAA4)), I prepared it in Adobe Photoshop by separating out the layers into the three different images([slope](https://github.com/MykeNuLeng/generic-webiste/blob/main/public/slope.png), [jump](https://github.com/MykeNuLeng/generic-webiste/blob/main/public/jump.png), [bg](https://github.com/MykeNuLeng/generic-webiste/blob/main/public/bg.png)). Then using JS's [Timeline](https://greensock.com/docs/v2/TimelineMax) library, I animated the images so that the images in the foreground moved up the screen, and the background slightly down. This gave the illusion of the camera panning down. Then using JS's [ScrollMagic](https://scrollmagic.io/) library, I made the animation rely on scrolling rather than time.
 
 ### Getting snowplow-micro to talk
 
