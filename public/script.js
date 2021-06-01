@@ -1,7 +1,7 @@
 let controller = new ScrollMagic.Controller();
 let timeline = new TimelineMax();
 
-// scrollmagic animation
+// scrollMagic animation
 timeline
   .to(".slope", 10, { y: -500 })
   .fromTo(".jump", { y: -50 }, { y: -300, duration: 10 }, "-=10")
